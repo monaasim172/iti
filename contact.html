@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Webpage</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="myHTML.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Get in Touch with Us</h1>
+        <p>Do you need to talk with us, have a question, or even just want to tell us how awesome we are?</p>
+        <p>Well, great! Find all the information you need here or even send a message.</p>
+
+        <!-- Embed Google Map below the paragraphs -->
+        <div class="map-container">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.7044840152603!2d32.87984482448352!3d23.970887880275697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1436886a6b928b8b%3A0x1f30b4b0578be44c!2z2KfZhNiz2K8g2KfZhNi52KfZhNmK!5e0!3m2!1sar!2seg!4v1732977982923!5m2!1sar!2seg" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>        </div>
+
+
+        <p>Send us A message</p>
+
+        <form action="/submit" method="POST">
+
+            <input type="text" id="username" name="username" placeholder="Enter your name"><br><br>
+
+            <input type="text" id="mail" name="mail" placeholder="Enter your Mail"><br><br>
+
+            <textarea rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+
+            <button>send your Message</button><br><br><br><br>
+        </form>
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
